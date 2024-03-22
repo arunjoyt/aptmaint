@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:door_number",
+ "creation": "2024-03-21 17:08:07.458179",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "door_number",
+  "number_of_bedrooms",
+  "floor",
+  "default_maintenance_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "door_number",
+   "fieldtype": "Data",
+   "label": "Door Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "number_of_bedrooms",
+   "fieldtype": "Select",
+   "label": "Number of Bedrooms",
+   "options": "1\n2\n3"
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Select",
+   "label": "Floor",
+   "options": "Ground\nFirst\nSecond"
+  },
+  {
+   "fieldname": "default_maintenance_amount",
+   "fieldtype": "Currency",
+   "label": "Default Maintenance Amount ",
+   "options": "INR"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-22 11:08:15.821904",
+ "modified_by": "Administrator",
+ "module": "Apartment Maintenance",
+ "name": "Flat",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
